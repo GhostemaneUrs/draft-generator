@@ -19,7 +19,7 @@ const loadEventListeners = () => {
 const submitForm = (e) => {
     const textContent = document.createElement("h4")
     const link = document.createElement("a")
-    link.appendChild(document.createTextNode(`<i> load ${inputLoadNumber.value} is ready. Click here</i>`))
+    link.appendChild(document.createTextNode(`<i> load ${inputLoadNumber.value} is ready. Click here`))
     link.innerHTML = `LoadNumber # ${inputLoadNumber.value.toUpperCase()}`
     document.getElementsByName("checkbooks").forEach(radio => {
         if (radio.checked) {
