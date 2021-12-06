@@ -12,74 +12,75 @@
 </head>
 
 <body>
-    <div class="container d-flex justify-content-center align-content-center flex-column">
+    <div class="container d-flex justify-content-center align-content-center flex-column pb-20">
         <div class="form-container">
             <div class="container-img"><img src="./assets/img/jbhunt.png" alt="jbhunt-img" class="img-jbhunt"></div>
             <div class="container-input">
                 <form class="input" id="form">
                     <div class="form-floating mb-2">
-                        <input type="email" class="form-control" placeholder="Leave recipient's email address here"
-                            id="inputEmail" required>
-                        <label for="floatingInput">Recipient's Email Address</label>
+                        <input type="email" class="form-control inputs"
+                            placeholder="Leave recipient's email address here" id="inputEmail" required>
+                        <label for="floatingInput" class="label">Recipient's Email Address</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="email" class="form-control" placeholder="Leave CC (optional) here" id="inputCc">
-                        <label for="floatingInput">CC (Optional)</label>
+                        <input type="email" class="form-control inputs" placeholder="Leave CC (optional) here"
+                            id="inputCc">
+                        <label for="floatingInput" class="label">CC (Optional)</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave load number here"
+                        <input type="text" class="form-control inputs" placeholder="Leave load number here"
                             id="inputLoadNumber">
-                        <label for="floatingInput">Load Number</label>
+                        <label for="floatingInput" class="label">Load Number</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave customer here" id="inputCustomer">
-                        <label for="floatingInput">Customer</label>
+                        <input type="text" class="form-control inputs" placeholder="Leave customer here"
+                            id="inputCustomer">
+                        <label for="floatingInput" class="label">Customer</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave origin here" id="inputOrigin">
-                        <label for="floatingInput">Origin</label>
+                        <input type="text" class="form-control inputs" placeholder="Leave origin here" id="inputOrigin">
+                        <label for="floatingInput" class="label">Origin</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave destination here"
+                        <input type="text" class="form-control inputs" placeholder="Leave destination here"
                             id="inputDestination">
-                        <label for="floatingInput">Destination</label>
+                        <label for="floatingInput" class="label">Destination</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave pickup date & time here"
+                        <input type="text" class="form-control inputs" placeholder="Leave pickup date & time here"
                             id="inputPickupDateTime" required>
-                        <label for="floatingInput">Pickup Date & Time</label>
+                        <label for="floatingInput" class="label">Pickup Date & Time</label>
                     </div>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" placeholder="Leave delivery date & time here"
+                        <input type="text" class="form-control inputs" placeholder="Leave delivery date & time here"
                             id="inputDeliveryDateTime" required>
-                        <label for="floatingInput">Delivery Date & Time</label>
+                        <label for="floatingInput" class="label">Delivery Date & Time</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <textarea class="form-control container-texArea" placeholder="Leave a comment here"
+                        <textarea class="form-control container-texArea inputs" placeholder="Leave a comment here"
                             id="textComents"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
+                        <label for="floatingTextarea2" class="label">Comments</label>
                     </div>
                     <div class="d-flex justify-content-center align-content-center mb-2">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="checkbooks" id="inlineRadio1"
+                            <input class="form-check-input inputRadio" type="radio" name="checkbooks" id="inlineRadio1"
                                 value="Pickup">
                             <label class="form-check-label" for="inlineRadio1">Pickup</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="checkbooks" id="inlineRadio2"
+                            <input class="form-check-input inputRadio" type="radio" name="checkbooks" id="inlineRadio2"
                                 value="Delivery">
                             <label class="form-check-label" for="inlineRadio2">Delivery</label>
                         </div>
                     </div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-warning" id="buttonSubmit" type="submit">Submit</button>
+                        <button class="btn btn-submit" id="buttonSubmit" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
 
         </div>
     </div>
-    <script type="text/javascript" src="./assets/js/index.js"></script>
 </body>
 
 </html>
